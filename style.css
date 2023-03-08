@@ -1,0 +1,11 @@
+.lazy {
+  /* transform: translateY(10%); */
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 500ms ease;
+}
+.lazy.fade-in {
+  /* transform: translateY(0); */
+  opacity: 1;
+  filter: none;
+}
